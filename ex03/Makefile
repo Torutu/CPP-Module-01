@@ -1,6 +1,6 @@
 NAME = violence
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++2b
+CFLAGS = -Wall -Wextra -Werror -std=c++11
 
 SRC = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 OBJ = $(SRC:.cpp=.o)

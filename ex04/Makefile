@@ -1,6 +1,6 @@
 NAME = replace
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++2b
+CFLAGS = -Wall -Wextra -Werror -std=c++11
 
 SRC = main.cpp FileReplacer.cpp
 OBJ = $(SRC:.cpp=.o)

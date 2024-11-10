@@ -2,10 +2,11 @@
 #define ZOMBIE_HPP
 
 #include <string>
+#include <iostream>
 
 class Zombie {
 private:
-    std::string name;  // Private attribute
+    std::string name;  // Private name attribute
 
 public:
     Zombie(std::string name);  // Constructor

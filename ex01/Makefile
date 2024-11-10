@@ -1,6 +1,6 @@
 NAME = moar
 CC = c++
-FLAGS = -Wall -Wextra -Werror -std=c++2b
+FLAGS = -Wall -Wextra -Werror -std=c++11
 
 SRC = main.cpp Zombie.cpp zombieHorde.cpp
 OBJ = $(SRC:.cpp=.o)
