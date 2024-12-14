@@ -1,7 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   FileReplacer.hpp                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/11/10 18:12:25 by marvin            #+#    #+#             */
+/*   Updated: 2024/11/10 18:12:25 by marvin           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FILEREPLACER_HPP
 #define FILEREPLACER_HPP
 
 #include <string>
+#include <iostream>
+#include <fstream>
 
 class FileReplacer {
 public:
