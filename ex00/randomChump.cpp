@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   randomChump.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: walnaimi <walnaimi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: toru <toru@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 19:01:54 by walnaimi          #+#    #+#             */
-/*   Updated: 2024/11/10 19:01:55 by walnaimi         ###   ########.fr       */
+/*   Updated: 2025/01/10 10:09:59 by toru             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,5 @@
 // Create a zombie on the stack and call announce
 void randomChump(std::string name) {
     Zombie tempZombie(name);  // Stack-allocated zombie
-    tempZombie.announce();
+    tempZombie.announce(); // Announce the stack-zombie and stack allocated variables will deconstruct at the end of the function
 }
