@@ -6,7 +6,7 @@
 /*   By: toru <toru@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 19:01:59 by walnaimi          #+#    #+#             */
-/*   Updated: 2025/01/10 09:36:47 by toru             ###   ########.fr       */
+/*   Updated: 2025/01/14 20:42:10 by toru             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 // Constructor to initialize the zombie's name
 Zombie::Zombie(std::string name) : name(name) {
-    std::cout << name << " is created." << std::endl;
+    //std::cout << name << " is created." << std::endl;
 }
 // Destructor that prints a message when the zombie is destroyed
 Zombie::~Zombie() {

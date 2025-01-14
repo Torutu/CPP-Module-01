@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FileReplacer.hpp                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: toru <toru@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/10 18:12:25 by marvin            #+#    #+#             */
-/*   Updated: 2024/11/10 18:12:25 by marvin           ###   ########.fr       */
+/*   Created: 2025/01/11 21:20:50 by toru              #+#    #+#             */
+/*   Updated: 2025/01/11 21:20:50 by toru             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <sys/stat.h>
 
 class FileReplacer {
 public:
