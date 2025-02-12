@@ -10,7 +10,7 @@ The goal of this exercise is to practice **dynamic memory allocation** using arr
 This exercise helps you practice working with **pointers** and **references** in C++.
 
 ### ex03
-This program demonstrates how to use **composition** and **pointers** in C++ with two classes.
+This program demonstrates how to use **pointers** and **references** in C++ and see the different features they have.
 
 ### ex04
 This exercise shows how C++ can **access**, **read**, and **create** files.
